@@ -1,0 +1,92 @@
+2023-05-26 16:01:37,401:INFO: dataset used for the evaluation: /Users/samiferchiou/VITA/monstereo/data/kitti-pifpaf/annotations_car_2
+2023-05-26 16:01:41,128:INFO: ------------------------------------------------------------------------------------------
+2023-05-26 16:01:41,128:INFO: METHODS
+2023-05-26 16:01:41,131:INFO: 
+method           <0.5      <1m      <2m  easy        moderate    hard        all
+------------  -------  -------  -------  ----------  ----------  ----------  ----------
+monoloco_pp     21.27    34.67    48.05  0.85 [98%]  1.86 [83%]  2.16 [29%]  1.75 [68%]
+monstereo       19.78    33.19    46.28  0.91 [97%]  1.73 [80%]  2.13 [26%]  1.70 [64%]
+m3e             20.28    32.34    44.4   0.84 [97%]  1.64 [76%]  1.73 [20%]  1.55 [60%]
+m4e             18.58    29.89    41.45  0.82 [96%]  1.59 [71%]  1.54 [16%]  1.44 [54%]
+3dop          -100     -100     -100     0.0 [0%]    0.0 [0%]    0.0 [0%]    0.0 [0%]
+pseudo-lidar  -100     -100     -100     0.0 [0%]    0.0 [0%]    0.0 [0%]    0.0 [0%]
+2023-05-26 16:01:41,131:INFO: ------------------------------------------------------------------------------------------
+
+2023-05-26 16:01:41,131:INFO: ----------------------------------------------------------------------------------------------------
+2023-05-26 16:01:41,131:INFO: MONOLOCO_PP
+2023-05-26 16:01:41,131:INFO: Process mode: NULL
+2023-05-26 16:01:41,131:INFO: Dropout images: NULL
+2023-05-26 16:01:41,131:INFO:  Annotations in clst easy: 2840, Recall: 61.8. Precision: 0.95, Relative size is 4.7 %
+2023-05-26 16:01:41,131:INFO:  Annotations in clst moderate: 4138, Recall: 58.2. Precision: 1.02, Relative size is 5.9 %
+2023-05-26 16:01:41,131:INFO:  Annotations in clst hard: 905, Recall: 44.9. Precision: 1.50, Relative size is 7.3 %
+2023-05-26 16:01:41,131:INFO:  Annotations in clst all: 9755, Recall: 57.5. Precision: 1.09, Relative size is 5.8 %
+2023-05-26 16:01:41,131:INFO: ----------------------------------------------------------------------------------------------------
+2023-05-26 16:01:41,131:INFO: MONSTEREO
+2023-05-26 16:01:41,131:INFO: Process mode: NULL
+2023-05-26 16:01:41,131:INFO: Dropout images: NULL
+2023-05-26 16:01:41,131:INFO:  Annotations in clst easy: 2828, Recall: 58.8. Precision: 1.06, Relative size is 4.7 %
+2023-05-26 16:01:41,131:INFO:  Annotations in clst moderate: 3964, Recall: 60.3. Precision: 1.04, Relative size is 5.7 %
+2023-05-26 16:01:41,132:INFO:  Annotations in clst hard: 803, Recall: 47.2. Precision: 1.61, Relative size is 7.4 %
+2023-05-26 16:01:41,132:INFO:  Annotations in clst all: 9156, Recall: 58.0. Precision: 1.14, Relative size is 5.6 %
+2023-05-26 16:01:41,132:INFO:  monoloco_pp Average error in cluster easy: 0.85 with a max error of 11.2, for 2840 annotations
+2023-05-26 16:01:41,132:INFO:  monoloco_pp Average error in cluster moderate: 1.86 with a max error of 25.4, for 4138 annotations
+2023-05-26 16:01:41,132:INFO:  monoloco_pp Average error in cluster hard: 2.17 with a max error of 16.3, for 905 annotations
+2023-05-26 16:01:41,132:INFO:  monoloco_pp Average error in cluster all: 1.75 with a max error of 25.4, for 9755 annotations
+2023-05-26 16:01:41,132:INFO: monoloco_pp Instances with error <0.5m: 21.28 %
+2023-05-26 16:01:41,132:INFO: monoloco_pp Instances with error <1m: 34.67 %
+2023-05-26 16:01:41,132:INFO: monoloco_pp Instances with error <2m: 48.06 %
+2023-05-26 16:01:41,132:INFO: 
+Matched annotations: 67.9 %
+2023-05-26 16:01:41,132:INFO:  Detected annotations : 11260/14372 
+2023-05-26 16:01:41,132:INFO: ----------------------------------------------------------------------------------------------------
+2023-05-26 16:01:41,132:INFO:  monstereo Average error in cluster easy: 0.92 with a max error of 9.1, for 2828 annotations
+2023-05-26 16:01:41,132:INFO:  monstereo Average error in cluster moderate: 1.74 with a max error of 26.5, for 3964 annotations
+2023-05-26 16:01:41,132:INFO:  monstereo Average error in cluster hard: 2.13 with a max error of 17.4, for 803 annotations
+2023-05-26 16:01:41,132:INFO:  monstereo Average error in cluster all: 1.70 with a max error of 26.5, for 9156 annotations
+2023-05-26 16:01:41,133:INFO: monstereo Instances with error <0.5m: 19.78 %
+2023-05-26 16:01:41,133:INFO: monstereo Instances with error <1m: 33.20 %
+2023-05-26 16:01:41,133:INFO: monstereo Instances with error <2m: 46.28 %
+2023-05-26 16:01:41,133:INFO: 
+Matched annotations: 63.7 %
+2023-05-26 16:01:41,133:INFO:  Detected annotations : 10102/14372 
+2023-05-26 16:01:41,133:INFO: ----------------------------------------------------------------------------------------------------
+2023-05-26 16:01:41,133:INFO:  m3e Average error in cluster easy: 0.84 with a max error of 8.5, for 2807 annotations
+2023-05-26 16:01:41,133:INFO:  m3e Average error in cluster moderate: 1.65 with a max error of 25.4, for 3792 annotations
+2023-05-26 16:01:41,133:INFO:  m3e Average error in cluster hard: 1.74 with a max error of 12.7, for 625 annotations
+2023-05-26 16:01:41,133:INFO:  m3e Average error in cluster all: 1.55 with a max error of 25.4, for 8597 annotations
+2023-05-26 16:01:41,133:INFO: m3e Instances with error <0.5m: 20.28 %
+2023-05-26 16:01:41,133:INFO: m3e Instances with error <1m: 32.35 %
+2023-05-26 16:01:41,134:INFO: m3e Instances with error <2m: 44.41 %
+2023-05-26 16:01:41,134:INFO: 
+Matched annotations: 59.8 %
+2023-05-26 16:01:41,134:INFO:  Detected annotations : 9243/14372 
+2023-05-26 16:01:41,134:INFO: ----------------------------------------------------------------------------------------------------
+2023-05-26 16:01:41,134:INFO:  m4e Average error in cluster easy: 0.82 with a max error of 7.8, for 2780 annotations
+2023-05-26 16:01:41,134:INFO:  m4e Average error in cluster moderate: 1.60 with a max error of 15.7, for 3510 annotations
+2023-05-26 16:01:41,134:INFO:  m4e Average error in cluster hard: 1.55 with a max error of 14.3, for 497 annotations
+2023-05-26 16:01:41,134:INFO:  m4e Average error in cluster all: 1.44 with a max error of 15.9, for 7813 annotations
+2023-05-26 16:01:41,134:INFO: m4e Instances with error <0.5m: 18.58 %
+2023-05-26 16:01:41,134:INFO: m4e Instances with error <1m: 29.90 %
+2023-05-26 16:01:41,134:INFO: m4e Instances with error <2m: 41.46 %
+2023-05-26 16:01:41,134:INFO: 
+Matched annotations: 54.4 %
+2023-05-26 16:01:41,134:INFO:  Detected annotations : 8209/14372 
+2023-05-26 16:01:41,134:INFO: ----------------------------------------------------------------------------------------------------
+2023-05-26 16:01:41,134:INFO:  3dop Average error in cluster easy: 0.00 with a max error of 0.0, for 0.0 annotations
+2023-05-26 16:01:41,134:INFO:  3dop Average error in cluster moderate: 0.00 with a max error of 0.0, for 0.0 annotations
+2023-05-26 16:01:41,134:INFO:  3dop Average error in cluster hard: 0.00 with a max error of 0.0, for 0.0 annotations
+2023-05-26 16:01:41,134:INFO:  3dop Average error in cluster all: 0.00 with a max error of 0.0, for 0.0 annotations
+2023-05-26 16:01:41,134:INFO: 3dop Instances with error <0.5m: -100.00 %
+2023-05-26 16:01:41,135:INFO: 3dop Instances with error <1m: -100.00 %
+2023-05-26 16:01:41,135:INFO: 3dop Instances with error <2m: -100.00 %
+2023-05-26 16:01:41,135:INFO: Nothing detected
+2023-05-26 16:01:41,135:INFO:  pseudo-lidar Average error in cluster easy: 0.00 with a max error of 0.0, for 0.0 annotations
+2023-05-26 16:01:41,135:INFO:  pseudo-lidar Average error in cluster moderate: 0.00 with a max error of 0.0, for 0.0 annotations
+2023-05-26 16:01:41,135:INFO:  pseudo-lidar Average error in cluster hard: 0.00 with a max error of 0.0, for 0.0 annotations
+2023-05-26 16:01:41,135:INFO:  pseudo-lidar Average error in cluster all: 0.00 with a max error of 0.0, for 0.0 annotations
+2023-05-26 16:01:41,135:INFO: pseudo-lidar Instances with error <0.5m: -100.00 %
+2023-05-26 16:01:41,135:INFO: pseudo-lidar Instances with error <1m: -100.00 %
+2023-05-26 16:01:41,135:INFO: pseudo-lidar Instances with error <2m: -100.00 %
+2023-05-26 16:01:41,135:INFO: Nothing detected
+2023-05-26 16:01:41,135:INFO: precision 1: 0.00
+2023-05-26 16:01:41,135:INFO: precision 2: 0.00

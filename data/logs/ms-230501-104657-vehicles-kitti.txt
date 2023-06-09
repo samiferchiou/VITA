@@ -1,0 +1,25 @@
+2023-05-01 10:46:57,084:INFO: Training arguments: 
+epochs: 15 
+batch_size: 512 
+dropout: 0.2
+monocular: True 
+learning rate: 0.001 
+scheduler step: 30 
+scheduler gamma: 0.98  
+input_size: 48 
+output_size: 9
+hidden_size: 1024 
+n_stages: 3 
+r_seed: 1 
+lambdas: (1, 1, 1, 1, 1, 1, 1) 
+input_file: /Users/samiferchiou/VITA/monstereo/data/arrays/joints-kitti-mono-210422-1600.json 
+vehicles: True 
+Keypoints 3D: False 
+process_mode: NULL 
+dropout_images: NULL 
+Confidence_training: False 
+Transformer: False  
+LSTM: False 
+Scene disp: False 
+Scene refine: False
+2023-05-01 10:46:58,711:INFO: Sizes of the dataset: {'train': 3532, 'val': 1932}

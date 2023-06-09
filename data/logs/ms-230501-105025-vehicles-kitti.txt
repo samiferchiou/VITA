@@ -1,0 +1,78 @@
+2023-05-01 10:50:25,767:INFO: Training arguments: 
+epochs: 50 
+batch_size: 512 
+dropout: 0.2
+monocular: True 
+learning rate: 0.001 
+scheduler step: 30 
+scheduler gamma: 0.98  
+input_size: 48 
+output_size: 9
+hidden_size: 1024 
+n_stages: 3 
+r_seed: 1 
+lambdas: (1, 1, 1, 1, 1, 1, 1) 
+input_file: /Users/samiferchiou/VITA/monstereo/data/arrays/joints-kitti-vehicles-230425-125427.json 
+vehicles: True 
+Keypoints 3D: False 
+process_mode: NULL 
+dropout_images: NULL 
+Confidence_training: False 
+Transformer: False  
+LSTM: False 
+Scene disp: False 
+Scene refine: False
+2023-05-01 10:50:26,573:INFO: Sizes of the dataset: {'train': 1369, 'val': 997}
+2023-05-01 10:52:27,599:INFO: Training:
+Training complete in 2m 1s
+2023-05-01 10:52:27,600:INFO: Best training Accuracy: 2.007
+2023-05-01 10:52:27,601:INFO: Best validation Accuracy for d: 0.815
+2023-05-01 10:52:27,601:INFO: Saved weights of the model at epoch: 48
+2023-05-01 10:52:29,391:INFO: Evaluation, val set: 
+Av. dist D: 0.81 m with bi 2.89 (56.5%), 
+X: 3.9 cm,  Y: 3.2 cm 
+Ori: 0.2  
+ H: 10.2 cm, W: 8.2 cm, L: 37.4 cm
+Auxiliary Task: 0.0 %, 
+2023-05-01 10:52:29,391:INFO: Error for the distance depending on the angle
+
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to -160: 
+Av. error: 2.16 m with an std of  0.00
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to -140: 
+Av. error: 1.90 m with an std of  0.67
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to -120: 
+Av. error: 3.46 m with an std of  3.98
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to -100: 
+Av. error: 1.05 m with an std of  1.60
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to -80: 
+Av. error: 3.78 m with an std of  4.43
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to -60: 
+Av. error: 3.37 m with an std of  3.80
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to -40: 
+Av. error: 1.96 m with an std of  1.93
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to -20: 
+Av. error: 2.91 m with an std of  3.85
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to 0: 
+Av. error: 2.32 m with an std of  3.78
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to 20: 
+Av. error: 3.32 m with an std of  2.54
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to 40: 
+Av. error: 4.15 m with an std of  3.23
+2023-05-01 10:52:29,392:INFO: Mean distance error for an angle inferior to 60: 
+Av. error: 5.46 m with an std of  5.51
+2023-05-01 10:52:29,393:INFO: Mean distance error for an angle inferior to 80: 
+Av. error: 3.77 m with an std of  3.62
+2023-05-01 10:52:29,393:INFO: Mean distance error for an angle inferior to 100: 
+Av. error: 1.88 m with an std of  2.51
+2023-05-01 10:52:29,393:INFO: Mean distance error for an angle inferior to 120: 
+Av. error: 1.11 m with an std of  0.27
+2023-05-01 10:52:29,393:INFO: Mean distance error for an angle inferior to 140: 
+Av. error: 2.66 m with an std of  0.01
+2023-05-01 10:52:29,446:INFO: Val err clust 10 --> D:1.13m,  bi:0.89 (57.7%), STD:1.0m   X:6.0 Y:5.2  Ori:0.2d,   H: 11 W: 10 L:41  for 97 pp. 
+2023-05-01 10:52:29,625:INFO: Val err clust 20 --> D:0.66m,  bi:1.53 (60.7%), STD:1.9m   X:4.1 Y:3.0  Ori:0.2d,   H: 9 W: 8 L:35  for 338 pp. 
+2023-05-01 10:52:29,740:INFO: Val err clust 30 --> D:0.90m,  bi:2.84 (53.9%), STD:3.6m   X:3.3 Y:2.2  Ori:0.2d,   H: 10 W: 8 L:34  for 219 pp. 
+2023-05-01 10:52:29,880:INFO: Val err clust 50 --> D:0.70m,  bi:4.42 (62.2%), STD:3.4m   X:3.6 Y:2.8  Ori:0.1d,   H: 11 W: 8 L:38  for 270 pp. 
+2023-05-01 10:52:29,923:INFO: Val err clust >50 --> D:1.28m,  bi:6.30 (21.9%), STD:5.7m   X:3.5 Y:5.3  Ori:0.2d,   H: 15 W: 8 L:54  for 73 pp. 
+2023-05-01 11:03:42,708:INFO: 
+model saved: data/models/ms-230501-105025-vehicles-kitti.pkl 
+

@@ -1,0 +1,80 @@
+2023-05-23 17:53:31,558:INFO: Training arguments: 
+epochs: 300 
+batch_size: 512 
+dropout: 0.2
+monocular: True 
+learning rate: 0.001 
+scheduler step: 30 
+scheduler gamma: 0.98  
+input_size: 72 
+output_size: 9
+hidden_size: 1024 
+n_stages: 3 
+r_seed: 1 
+lambdas: (1, 1, 1, 1, 1, 1, 1) 
+input_file: /Users/samiferchiou/VITA/monstereo/data/arrays/joints-kitti-vehicles-transformer-230523-174929.json 
+vehicles: True 
+Keypoints 3D: False 
+process_mode: NULL 
+dropout_images: NULL 
+Confidence_training: True 
+Transformer: True  
+LSTM: False 
+Scene disp: False 
+Scene refine: False
+2023-05-23 17:53:40,929:INFO: Sizes of the dataset: {'train': 12366, 'val': 10047}
+2023-05-23 18:16:55,405:INFO: Training:
+Training complete in 23m 14s
+2023-05-23 18:16:55,405:INFO: Best training Accuracy: 0.636
+2023-05-23 18:16:55,405:INFO: Best validation Accuracy for d: 0.333
+2023-05-23 18:16:55,405:INFO: Saved weights of the model at epoch: 244
+2023-05-23 18:17:01,172:INFO: Evaluation, val set: 
+Av. dist D: 0.33 m with bi 1.78 (57.3%), 
+X: 8.1 cm,  Y: 2.4 cm 
+Ori: 0.1  
+ H: 9.6 cm, W: 7.9 cm, L: 35.8 cm
+Auxiliary Task: 0.0 %, 
+2023-05-23 18:17:01,172:INFO: Error for the distance depending on the angle
+
+2023-05-23 18:17:01,172:INFO: Mean distance error for an angle inferior to -160: 
+Av. error: 3.90 m with an std of  3.98
+2023-05-23 18:17:01,172:INFO: Mean distance error for an angle inferior to -140: 
+Av. error: 2.37 m with an std of  2.99
+2023-05-23 18:17:01,172:INFO: Mean distance error for an angle inferior to -120: 
+Av. error: 1.31 m with an std of  2.75
+2023-05-23 18:17:01,172:INFO: Mean distance error for an angle inferior to -100: 
+Av. error: 1.35 m with an std of  2.35
+2023-05-23 18:17:01,173:INFO: Mean distance error for an angle inferior to -80: 
+Av. error: 2.17 m with an std of  2.65
+2023-05-23 18:17:01,173:INFO: Mean distance error for an angle inferior to -60: 
+Av. error: 2.30 m with an std of  3.01
+2023-05-23 18:17:01,173:INFO: Mean distance error for an angle inferior to -40: 
+Av. error: 2.95 m with an std of  3.34
+2023-05-23 18:17:01,173:INFO: Mean distance error for an angle inferior to -20: 
+Av. error: 2.85 m with an std of  3.34
+2023-05-23 18:17:01,173:INFO: Mean distance error for an angle inferior to 0: 
+Av. error: 4.50 m with an std of  5.64
+2023-05-23 18:17:01,173:INFO: Mean distance error for an angle inferior to 20: 
+Av. error: 3.32 m with an std of  3.00
+2023-05-23 18:17:01,173:INFO: Mean distance error for an angle inferior to 40: 
+Av. error: 3.39 m with an std of  3.31
+2023-05-23 18:17:01,173:INFO: Mean distance error for an angle inferior to 60: 
+Av. error: 1.99 m with an std of  2.77
+2023-05-23 18:17:01,174:INFO: Mean distance error for an angle inferior to 80: 
+Av. error: 2.24 m with an std of  2.33
+2023-05-23 18:17:01,174:INFO: Mean distance error for an angle inferior to 100: 
+Av. error: 1.65 m with an std of  2.10
+2023-05-23 18:17:01,174:INFO: Mean distance error for an angle inferior to 120: 
+Av. error: 1.61 m with an std of  2.62
+2023-05-23 18:17:01,174:INFO: Mean distance error for an angle inferior to 140: 
+Av. error: 2.19 m with an std of  2.64
+2023-05-23 18:17:01,174:INFO: Mean distance error for an angle inferior to 160: 
+Av. error: 4.46 m with an std of  3.78
+2023-05-23 18:17:01,371:INFO: Val err clust 10 --> D:0.74m,  bi:0.54 (53.0%), STD:1.8m   X:9.2 Y:2.6  Ori:0.1d,   H: 8 W: 7 L:33  for 1141 pp. 
+2023-05-23 18:17:01,845:INFO: Val err clust 20 --> D:0.27m,  bi:0.83 (56.0%), STD:1.6m   X:7.4 Y:2.1  Ori:0.1d,   H: 9 W: 7 L:33  for 2821 pp. 
+2023-05-23 18:17:02,223:INFO: Val err clust 30 --> D:0.35m,  bi:1.66 (57.4%), STD:2.5m   X:7.4 Y:2.3  Ori:0.1d,   H: 10 W: 8 L:33  for 2267 pp. 
+2023-05-23 18:17:02,691:INFO: Val err clust 50 --> D:0.15m,  bi:2.51 (63.4%), STD:2.4m   X:8.5 Y:2.5  Ori:0.1d,   H: 10 W: 8 L:39  for 2871 pp. 
+2023-05-23 18:17:02,856:INFO: Val err clust >50 --> D:0.54m,  bi:4.16 (47.2%), STD:4.4m   X:9.7 Y:2.6  Ori:0.1d,   H: 11 W: 9 L:44  for 947 pp. 
+2023-05-23 18:17:46,033:INFO: 
+model saved: data/models/ms-230523-175331-vehicles-transformer-kitti.pkl 
+

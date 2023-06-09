@@ -1,0 +1,1 @@
+2023-04-28 13:46:32,848:INFO: dataset used for the evaluation: /Users/samiferchiou/VITA/monstereo/data/kitti-pifpaf/annotations_car_test

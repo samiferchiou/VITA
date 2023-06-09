@@ -1,0 +1,30 @@
+2023-04-25 17:00:51,240:INFO: Training arguments: 
+epochs: 1 
+batch_size: 512 
+dropout: 0.2
+monocular: True 
+learning rate: 0.001 
+scheduler step: 30 
+scheduler gamma: 0.98  
+input_size: 48 
+output_size: 9
+hidden_size: 1024 
+n_stages: 3 
+r_seed: 1 
+lambdas: (1, 1, 1, 1, 1, 1, 1) 
+input_file: /Users/samiferchiou/VITA/monstereo/data/arrays/joints-kitti-vehicles-230425-125427.json 
+vehicles: True 
+Keypoints 3D: False 
+process_mode: NULL 
+dropout_images: NULL 
+Confidence_training: False 
+Transformer: False  
+LSTM: False 
+Scene disp: False 
+Scene refine: False
+2023-04-25 17:00:52,051:INFO: Sizes of the dataset: {'train': 1369, 'val': 997}
+2023-04-25 17:00:54,640:INFO: Training:
+Training complete in 0m 3s
+2023-04-25 17:00:54,641:INFO: Best training Accuracy: 21.652
+2023-04-25 17:00:54,641:INFO: Best validation Accuracy for d: 3.129
+2023-04-25 17:00:54,641:INFO: Saved weights of the model at epoch: 0

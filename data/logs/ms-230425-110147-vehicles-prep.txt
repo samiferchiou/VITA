@@ -1,0 +1,22 @@
+2023-04-25 11:01:47,645:INFO: Preparation arguments: 
+Dir_ann: /Users/samiferchiou/VITA/monstereo/data/kitti-pifpaf/annotations_car 
+monocular: True
+vehicles: True 
+iou_min: 0.3 
+process_mode : NULL 
+Dropout images: 0.0 
+Confidence keypoints: False 
+Transformer: False
+2023-04-25 11:01:53,833:INFO: 
+Number of keypoints in the skeleton : 24
+Val: mean occluded keypoints 14.75; STD 2.217
+Train: mean occluded keypoints nan; STD nan
+
+2023-04-25 11:01:53,833:INFO: ------------------------------------------------------------------------------------------------------------------------
+2023-04-25 11:01:53,833:INFO: Number of GT files: 7476. Files with at least one item: 6680.  Files not found: 5
+2023-04-25 11:01:53,833:INFO: Total annotations: 4
+2023-04-25 11:01:53,833:INFO: 
+Output files:
+data/arrays/names-kitti-vehicles-230425-110147.json
+data/arrays/joints-kitti-vehicles-230425-110147.json
+2023-04-25 11:01:53,833:INFO: ------------------------------------------------------------------------------------------------------------------------
