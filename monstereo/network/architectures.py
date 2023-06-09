@@ -75,8 +75,8 @@ class SimpleModel(nn.Module):
         self.scene_refine = scene_refine
         self.confidence = confidence
 
-        assert (not (self.transformer and self.lstm)) , "The network cannot implement a transformer and"\
-                                                        "a LSTM at the same time (are you a psycho ??)"
+        assert (not (self.transformer and self.lstm)) , 
+        
         # Initialize weights
 
         n_hidden = self.num_stage #? Number of stages for the transformer (a stage for the transfromer
