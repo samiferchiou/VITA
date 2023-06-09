@@ -550,11 +550,6 @@ class TransformerV2(nn.Module):
         if d_attention is not None:
             assert d_attention > 0, "d_attention is negative or equal to 0"
 
-        #? Mixed case where the encoder's output is of a different size compared to 
-        #? the decoder's output -> this is quite experimental
-        #? But it is one of the fields that can be explored: using different data for 
-        #? the encoder and decoder and extract the relationships that we can extract from those 2 sets
-
         if embed_dim2 == None:
             embed_dim2 = embed_dim 
             d_attention2 = d_attention
