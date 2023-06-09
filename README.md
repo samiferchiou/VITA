@@ -2,6 +2,8 @@
 
 This github repository is the result of a semester project performed in the [VITA laboratory](https://www.epfl.ch/labs/vita/) at EPFL during the second semester of 2023. The goal of this semester was to implement a keypoint based vehicle detection and ditance estimation. To do so, 2 previous work performed by the laboratory were used: the [Openpifpaf algorithm](https://github.com/vita-epfl/openpifpaf) for the keypoint detection and the [Monoloco algorithm](https://github.com/vita-epfl/monoloco) for the distance estimation.
 
+This project focuses on the development of a Monocular 3D Vehicle Detection system using keypoint estimation and attention mechanisms. The goal is to estimate the depth of vehicles in a single image based on a set of 24 keypoints.
+
 
 ## Vehicles
 
